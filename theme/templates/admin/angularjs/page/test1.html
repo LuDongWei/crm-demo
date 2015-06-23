@@ -1,0 +1,22 @@
+
+
+<!-- 左侧内容 -->
+<div data-ng-include="'left-sidebar/sidebar1.html'" data-ng-controller="SidebarController" class="page-sidebar-wrapper"></div>
+<!-- 左侧内容 -->
+
+<!-- BEGIN CONTENT -->
+<div class="page-content-wrapper">
+	<div class="page-content">
+		<!-- 私人订制 -->
+		<div data-ng-include="'tpl/theme-panel.html'" data-ng-controller="ThemePanelController" class="theme-panel hidden-xs hidden-sm"></div>
+		<!-- 私人订制 -->
+
+		<!-- BEGIN ACTUAL CONTENT -->
+		<div ui-view class="fade-in-up">
+			
+			11
+		</div>
+		<!-- END ACTUAL CONTENT -->
+	</div>
+</div>
+<!-- END CONTENT -->
